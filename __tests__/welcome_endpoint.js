@@ -8,5 +8,5 @@ it('gets the welcome endpoint', async () => {
   const response = await request.get('/');
 
   expect(response.status).toBe(200);
-  expect(response.body.message).toBe('Herzlich Wilkommen!!!');
+  expect(response.body.message).toBe('Добро пожаловать!!!');
 });
